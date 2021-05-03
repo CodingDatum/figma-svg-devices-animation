@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow;
+    width: 100%;
+    height: 100vh;
+}
+
+svg{
+    position: absolute;
+}
+
+#phone-svg{
+    margin-left: 40%;
+}
+
+.animate-laptop{
+    animation: laptop 1s ease forwards;
+}
+
+.animate-phone{
+    animation: phone 1s ease forwards;
+}
+
+.remove-laptop{
+    animation: remove-laptop 1s ease forwards;
+}
+
+.remove-phone{
+    animation: remove-phone 1s ease forwards;
+}
+
+@keyframes laptop{
+    from{
+        opacity: 0;
+        transform: translatey(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translatey(0px);
+    }
+}
+
+@keyframes phone{
+    from{
+        opacity: 0;
+        transform: translatex(0px);
+    }
+    to{
+        opacity: 1;
+        transform: translatex(50px);
+    }
+}
+
+@keyframes remove-laptop{
+    to{
+        transform: translatex(500px);
+        opacity: 0;
+    }
+}
+@keyframes remove-phone{
+
+    to{
+        opacity: 0;
+        margin-left: 0;
+    }
+}
+
