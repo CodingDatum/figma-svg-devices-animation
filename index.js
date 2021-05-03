@@ -2,7 +2,9 @@ const phoneSVG = document.querySelector("#phone-svg");
 
 const laptop = document.querySelector("#laptop");
 
-let svgList = [phoneSVG, laptop]
+const tabletSVG = document.querySelector("#tablet-svg");
+
+let svgList = [phoneSVG, laptop, tabletSVG]
 
 hideSavages(svgList);
 
@@ -26,7 +28,12 @@ function animateSVG(svgFile){
             }
 
             if(svgFile.id === "phone-svg"){
+                svgFile.classList.remove("hidden");
                 child.classList.add("animate-phone");
+            }
+            if(svgFile.id === "tablet-svg"){
+                svgFile.classList.remove("hidden");
+                child.classList.add("animate-tablet");
             }
 
             if(svgChildren.length - i === 1){
@@ -37,12 +44,10 @@ function animateSVG(svgFile){
 
                 }, 1000)
             }
-        }, i * 200)
+        }, i * 100)
     }
 
 }
-
-// AFTER TEST WE WILL ADD SECOND PARAMETER FOR THE NEW ANIMATION
 
 function switchAnimations(oldAnimation){
 
@@ -58,19 +63,32 @@ function switchAnimations(oldAnimation){
 
         oldAnimation.classList.add("remove-phone");
 
-        // animateSVG(phoneSVG)
+        animateSVG(tabletSVG)
+
+    }
+    if(oldAnimation.id === "tablet-svg"){
+
+        oldAnimation.classList.add("remove-tablet");
 
     }
 
     setTimeout(function(){
 
-        oldAnimation.removeAttribute("style");
+        oldAnimation.remove();
+
+        if(oldAnimation.id === "tablet.svg"){
+
+            const animationContainer = document.querySelector(".animation-container");
+
+            animationContainer.remove();
+
+            animateHero();
+
+        }
 
     }, 1000)
 
 }
-
-// HIDING ALL OF THE SVG ELEMENTS
 
 function hideSavages(list){
 
