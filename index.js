@@ -110,15 +110,22 @@ const heroSVG = document.querySelector("#hero1");
 
 const heroPaths = document.querySelectorAll("#hero1 path");
 
-for(let i = 0 ; i < heroPaths.length ; i++){
+const animationContainer = document.querySelector(".animation-container");
 
-    let path = heroPaths[i];
-    let pathLength = path.getTotalLength();
-    console.log(pathLength);
+// the following is how we determine the stroke-dash properties of each SVG letter path
 
-};
+// for(let i = 0 ; i < heroPaths.length ; i++){
+
+//     let path = heroPaths[i];
+//     let pathLength = path.getTotalLength();
+//     console.log(pathLength);
+
+// };
 
 function animateHero(){
+
     heroSVG.classList.add("fill");
-    console.log("Hero animated to Fill")
+
+    animationContainer.classList.add("container-animation");
+
 }
