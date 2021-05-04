@@ -15,6 +15,8 @@ function animateSVG(svgFile){
     workingAnimation = svgFile;
 
     let svgChildren = svgFile.children;
+
+    svgFile.classList.remove("hidden");
     
     for(let i = 0 ; i < svgChildren.length; i++){
         let child = svgChildren[i];
@@ -26,11 +28,11 @@ function animateSVG(svgFile){
             }
 
             if(svgFile.id === "phone-svg"){
-                svgFile.classList.remove("hidden");
+                
                 child.classList.add("animate-phone");
             }
             if(svgFile.id === "tablet-svg"){
-                svgFile.classList.remove("hidden");
+
                 child.classList.add("animate-tablet");
             }
 
@@ -114,13 +116,13 @@ const animationContainer = document.querySelector(".animation-container");
 
 // the following is how we determine the stroke-dash properties of each SVG letter path
 
-// for(let i = 0 ; i < heroPaths.length ; i++){
+for(let i = 0 ; i < heroPaths.length ; i++){
 
-//     let path = heroPaths[i];
-//     let pathLength = path.getTotalLength();
-//     console.log(pathLength);
+    let path = heroPaths[i];
+    let pathLength = path.getTotalLength();
+    console.log(pathLength);
 
-// };
+};
 
 function animateHero(){
 

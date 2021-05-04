@@ -201,88 +201,106 @@ svg {
   }
 }
 
+#hero1 {
+  margin-top: 15%;
+}
+
 #hero1 path:nth-child(1) {
-  stroke-dasharray: 512.6173095703125;
-  stroke-dashoffset: 512.6173095703125;
+  stroke-dasharray: 534.094970703125;
+  stroke-dashoffset: 534.094970703125;
   -webkit-animation: animate-hero 1s ease forwards 7.0s;
           animation: animate-hero 1s ease forwards 7.0s;
 }
 
 #hero1 path:nth-child(2) {
-  stroke-dasharray: 281.33758544921875;
-  stroke-dashoffset: 281.33758544921875;
+  stroke-dasharray: 343.50872802734375;
+  stroke-dashoffset: 343.50872802734375;
   -webkit-animation: animate-hero 1s ease forwards 7.2s;
           animation: animate-hero 1s ease forwards 7.2s;
 }
 
 #hero1 path:nth-child(3) {
-  stroke-dasharray: 319.1973571777344;
-  stroke-dashoffset: 319.1973571777344;
+  stroke-dasharray: 374.6701354980469;
+  stroke-dashoffset: 374.6701354980469;
   -webkit-animation: animate-hero 1s ease forwards 7.4s;
           animation: animate-hero 1s ease forwards 7.4s;
 }
 
 #hero1 path:nth-child(4) {
-  stroke-dasharray: 365.16094970703125;
-  stroke-dashoffset: 365.16094970703125;
+  stroke-dasharray: 381.0516052246094;
+  stroke-dashoffset: 381.0516052246094;
   -webkit-animation: animate-hero 1s ease forwards 7.6s;
           animation: animate-hero 1s ease forwards 7.6s;
 }
 
 #hero1 path:nth-child(5) {
-  stroke-dasharray: 281.3380432128906;
-  stroke-dashoffset: 281.3380432128906;
+  stroke-dasharray: 343.50927734375;
+  stroke-dashoffset: 343.50927734375;
   -webkit-animation: animate-hero 1s ease forwards 7.8s;
           animation: animate-hero 1s ease forwards 7.8s;
 }
 
 #hero1 path:nth-child(6) {
-  stroke-dasharray: 208.87973022460938;
-  stroke-dashoffset: 208.87973022460938;
+  stroke-dasharray: 236.832275390625;
+  stroke-dashoffset: 236.832275390625;
   -webkit-animation: animate-hero 1s ease forwards 8s;
           animation: animate-hero 1s ease forwards 8s;
 }
 
 #hero1 path:nth-child(7) {
-  stroke-dasharray: 281.3381042480469;
-  stroke-dashoffset: 281.3381042480469;
+  stroke-dasharray: 343.5094909667969;
+  stroke-dashoffset: 343.5094909667969;
   -webkit-animation: animate-hero 1s ease forwards 8.2s;
           animation: animate-hero 1s ease forwards 8.2s;
 }
 
 #hero1 path:nth-child(8) {
-  stroke-dasharray: 151.67999267578125;
-  stroke-dashoffset: 151.67999267578125;
+  stroke-dasharray: 159.55194091796875;
+  stroke-dashoffset: 159.55194091796875;
   -webkit-animation: animate-hero 1s ease forwards 8.4s;
           animation: animate-hero 1s ease forwards 8.4s;
 }
 
 #hero1 path:nth-child(9) {
-  stroke-dasharray: 270.79364013671875;
-  stroke-dashoffset: 270.79364013671875;
+  stroke-dasharray: 289.18182373046875;
+  stroke-dashoffset: 289.18182373046875;
   -webkit-animation: animate-hero 1s ease forwards 8.6s;
           animation: animate-hero 1s ease forwards 8.6s;
 }
 
 #hero1 path:nth-child(10) {
-  stroke-dasharray: 327.373046875;
-  stroke-dashoffset: 327.373046875;
+  stroke-dasharray: 387.5021667480469;
+  stroke-dashoffset: 387.5021667480469;
   -webkit-animation: animate-hero 1s ease forwards 8.8s;
           animation: animate-hero 1s ease forwards 8.8s;
 }
 
 #hero1 path:nth-child(11) {
-  stroke-dasharray: 281.3384094238281;
-  stroke-dashoffset: 281.3384094238281;
+  stroke-dasharray: 445.8540344238281;
+  stroke-dashoffset: 445.8540344238281;
   -webkit-animation: animate-hero 1s ease forwards 9s;
           animation: animate-hero 1s ease forwards 9s;
 }
 
 #hero1 path:nth-child(12) {
-  stroke-dasharray: 152.3493194580078;
-  stroke-dashoffset: 152.3493194580078;
+  stroke-dasharray: 343.5096740722656;
+  stroke-dashoffset: 343.5096740722656;
   -webkit-animation: animate-hero 1s ease forwards 9.2s;
           animation: animate-hero 1s ease forwards 9.2s;
+}
+
+#hero1 path:nth-child(13) {
+  stroke-dasharray: 281.66729736328125;
+  stroke-dashoffset: 281.66729736328125;
+  -webkit-animation: animate-hero 1s ease forwards 9.4s;
+          animation: animate-hero 1s ease forwards 9.4s;
+}
+
+#hero1 path:nth-child(14) {
+  stroke-dasharray: 209.96665954589844;
+  stroke-dashoffset: 209.96665954589844;
+  -webkit-animation: animate-hero 1s ease forwards 9.6s;
+          animation: animate-hero 1s ease forwards 9.6s;
 }
 
 .fill {
@@ -308,8 +326,8 @@ svg {
     margin-left: 0px;
   }
   to {
-    fill: #76faff;
-    margin-left: 500px;
+    fill: #65f7a2;
+    margin-left: 180px;
   }
 }
 
@@ -319,8 +337,8 @@ svg {
     margin-left: 0px;
   }
   to {
-    fill: #76faff;
-    margin-left: 500px;
+    fill: #65f7a2;
+    margin-left: 180px;
   }
 }
 
