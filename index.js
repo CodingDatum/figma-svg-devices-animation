@@ -1,6 +1,6 @@
 const phoneSVG = document.querySelector("#phone-svg");
 
-const laptop = document.querySelector("#laptop");
+const laptop = document.querySelector("#laptop-svg");
 
 const tabletSVG = document.querySelector("#tablet-svg");
 
@@ -9,8 +9,6 @@ let svgList = [phoneSVG, laptop, tabletSVG]
 hideSavages(svgList);
 
 let workingAnimation;
-
-animateSVG(laptop)
 
 function animateSVG(svgFile){
 
@@ -23,7 +21,7 @@ function animateSVG(svgFile){
 
         setTimeout(function(){
 
-            if(svgFile.id === "laptop"){
+            if(svgFile.id === "laptop-svg"){
                 child.classList.add("animate-laptop");
             }
 
@@ -51,7 +49,7 @@ function animateSVG(svgFile){
 
 function switchAnimations(oldAnimation){
 
-    if(oldAnimation.id === "laptop"){
+    if(oldAnimation.id === "laptop-svg"){
 
         oldAnimation.classList.add("remove-laptop");
 
@@ -74,19 +72,15 @@ function switchAnimations(oldAnimation){
 
     setTimeout(function(){
 
-        oldAnimation.remove();
-
-        if(oldAnimation.id === "tablet.svg"){
-
-            const animationContainer = document.querySelector(".animation-container");
-
-            animationContainer.remove();
+        if(oldAnimation.id === "tablet-svg"){
 
             animateHero();
 
         }
 
-    }, 1000)
+        oldAnimation.remove();
+
+    }, 3000)
 
 }
 
@@ -103,4 +97,28 @@ function hideSavages(list){
 
     }
 
+}
+
+setTimeout(function(){
+    animateSVG(laptop)
+}, 1000);
+
+
+// ANIMATED COMMENTS SECTION
+
+const heroSVG = document.querySelector("#hero1");
+
+const heroPaths = document.querySelectorAll("#hero1 path");
+
+for(let i = 0 ; i < heroPaths.length ; i++){
+
+    let path = heroPaths[i];
+    let pathLength = path.getTotalLength();
+    console.log(pathLength);
+
+};
+
+function animateHero(){
+    heroSVG.classList.add("fill");
+    console.log("Hero animated to Fill")
 }
