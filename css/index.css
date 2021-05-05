@@ -207,99 +207,99 @@ svg {
 #hero1 path:nth-child(1) {
   stroke-dasharray: 534.094970703125;
   stroke-dashoffset: 534.094970703125;
-  -webkit-animation: animate-hero 1s ease forwards 7.0s;
-          animation: animate-hero 1s ease forwards 7.0s;
+  -webkit-animation: animate-hero 1s ease forwards 8.0s;
+          animation: animate-hero 1s ease forwards 8.0s;
 }
 
 #hero1 path:nth-child(2) {
   stroke-dasharray: 343.50872802734375;
   stroke-dashoffset: 343.50872802734375;
-  -webkit-animation: animate-hero 1s ease forwards 7.2s;
-          animation: animate-hero 1s ease forwards 7.2s;
+  -webkit-animation: animate-hero 1s ease forwards 8.2s;
+          animation: animate-hero 1s ease forwards 8.2s;
 }
 
 #hero1 path:nth-child(3) {
   stroke-dasharray: 374.6701354980469;
   stroke-dashoffset: 374.6701354980469;
-  -webkit-animation: animate-hero 1s ease forwards 7.4s;
-          animation: animate-hero 1s ease forwards 7.4s;
+  -webkit-animation: animate-hero 1s ease forwards 8.4s;
+          animation: animate-hero 1s ease forwards 8.4s;
 }
 
 #hero1 path:nth-child(4) {
   stroke-dasharray: 381.0516052246094;
   stroke-dashoffset: 381.0516052246094;
-  -webkit-animation: animate-hero 1s ease forwards 7.6s;
-          animation: animate-hero 1s ease forwards 7.6s;
+  -webkit-animation: animate-hero 1s ease forwards 8.6s;
+          animation: animate-hero 1s ease forwards 8.6s;
 }
 
 #hero1 path:nth-child(5) {
   stroke-dasharray: 343.50927734375;
   stroke-dashoffset: 343.50927734375;
-  -webkit-animation: animate-hero 1s ease forwards 7.8s;
-          animation: animate-hero 1s ease forwards 7.8s;
+  -webkit-animation: animate-hero 1s ease forwards 8.8s;
+          animation: animate-hero 1s ease forwards 8.8s;
 }
 
 #hero1 path:nth-child(6) {
   stroke-dasharray: 236.832275390625;
   stroke-dashoffset: 236.832275390625;
-  -webkit-animation: animate-hero 1s ease forwards 8s;
-          animation: animate-hero 1s ease forwards 8s;
+  -webkit-animation: animate-hero 1s ease forwards 9s;
+          animation: animate-hero 1s ease forwards 9s;
 }
 
 #hero1 path:nth-child(7) {
   stroke-dasharray: 343.5094909667969;
   stroke-dashoffset: 343.5094909667969;
-  -webkit-animation: animate-hero 1s ease forwards 8.2s;
-          animation: animate-hero 1s ease forwards 8.2s;
+  -webkit-animation: animate-hero 1s ease forwards 9.2s;
+          animation: animate-hero 1s ease forwards 9.2s;
 }
 
 #hero1 path:nth-child(8) {
   stroke-dasharray: 159.55194091796875;
   stroke-dashoffset: 159.55194091796875;
-  -webkit-animation: animate-hero 1s ease forwards 8.4s;
-          animation: animate-hero 1s ease forwards 8.4s;
+  -webkit-animation: animate-hero 1s ease forwards 9.4s;
+          animation: animate-hero 1s ease forwards 9.4s;
 }
 
 #hero1 path:nth-child(9) {
   stroke-dasharray: 289.18182373046875;
   stroke-dashoffset: 289.18182373046875;
-  -webkit-animation: animate-hero 1s ease forwards 8.6s;
-          animation: animate-hero 1s ease forwards 8.6s;
+  -webkit-animation: animate-hero 1s ease forwards 9.6s;
+          animation: animate-hero 1s ease forwards 9.6s;
 }
 
 #hero1 path:nth-child(10) {
   stroke-dasharray: 387.5021667480469;
   stroke-dashoffset: 387.5021667480469;
-  -webkit-animation: animate-hero 1s ease forwards 8.8s;
-          animation: animate-hero 1s ease forwards 8.8s;
+  -webkit-animation: animate-hero 1s ease forwards 9.8s;
+          animation: animate-hero 1s ease forwards 9.8s;
 }
 
 #hero1 path:nth-child(11) {
   stroke-dasharray: 445.8540344238281;
   stroke-dashoffset: 445.8540344238281;
-  -webkit-animation: animate-hero 1s ease forwards 9s;
-          animation: animate-hero 1s ease forwards 9s;
+  -webkit-animation: animate-hero 1s ease forwards 10s;
+          animation: animate-hero 1s ease forwards 10s;
 }
 
 #hero1 path:nth-child(12) {
   stroke-dasharray: 343.5096740722656;
   stroke-dashoffset: 343.5096740722656;
-  -webkit-animation: animate-hero 1s ease forwards 9.2s;
-          animation: animate-hero 1s ease forwards 9.2s;
+  -webkit-animation: animate-hero 1s ease forwards 10.2s;
+          animation: animate-hero 1s ease forwards 10.2s;
 }
 
 #hero1 path:nth-child(13) {
   stroke-dasharray: 281.66729736328125;
   stroke-dashoffset: 281.66729736328125;
-  -webkit-animation: animate-hero 1s ease forwards 9.4s;
-          animation: animate-hero 1s ease forwards 9.4s;
+  -webkit-animation: animate-hero 1s ease forwards 10.4s;
+          animation: animate-hero 1s ease forwards 10.4s;
 }
 
 #hero1 path:nth-child(14) {
   stroke-dasharray: 209.96665954589844;
   stroke-dashoffset: 209.96665954589844;
-  -webkit-animation: animate-hero 1s ease forwards 9.6s;
-          animation: animate-hero 1s ease forwards 9.6s;
+  -webkit-animation: animate-hero 1s ease forwards 10.6s;
+          animation: animate-hero 1s ease forwards 10.6s;
 }
 
 .fill {
@@ -349,8 +349,8 @@ svg {
   font-weight: bold;
   color: white;
   width: 20%;
-  -webkit-animation: comments 1s ease forwards 2.8s;
-          animation: comments 1s ease forwards 2.8s;
+  -webkit-animation: comments 1s ease forwards 3.6s;
+          animation: comments 1s ease forwards 3.6s;
 }
 
 @-webkit-keyframes comments {

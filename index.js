@@ -33,7 +33,7 @@ function animateSVG(svgFile){
                 child.classList.add("animate-phone");
                 setTimeout(function(){
                     animationText.innerHTML = "Compatible Sites.";
-                }, 300)
+                }, 200)
             }
             if(svgFile.id === "tablet-svg"){
                 child.classList.add("animate-tablet");
@@ -51,7 +51,7 @@ function animateSVG(svgFile){
 
                 }, 1000)
             }
-        }, i * 100)
+        }, i * 200)
     }
 
 }
