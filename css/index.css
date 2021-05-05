@@ -403,4 +403,57 @@ svg {
     color: #e5854b;
   }
 }
+
+.button-animation {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border: 5px solid #e5854b;
+  border-radius: 15px;
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  -webkit-animation: button-animation 2s ease infinite;
+          animation: button-animation 2s ease infinite;
+}
+
+#home-button {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid #e5854b;
+  cursor: pointer;
+}
+
+#home-button a {
+  color: #e5854b;
+  text-decoration: none;
+}
+
+#home-button:hover {
+  background-color: #4bc3d3;
+}
+
+@-webkit-keyframes button-animation {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 20px;
+    border: 1px solid rgba(229, 133, 75, 0.2);
+    border-radius: 30px;
+  }
+}
+
+@keyframes button-animation {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 20px;
+    border: 1px solid rgba(229, 133, 75, 0.2);
+    border-radius: 30px;
+  }
+}
 /*# sourceMappingURL=index.css.map */

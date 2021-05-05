@@ -257,3 +257,47 @@ svg{
     }
 
 }
+
+// PROCEED TO PORTFOLIO BUTTON
+
+.button-animation{
+    transform: scale(1.2);
+    border: 5px solid rgb(229,133,75);
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translate(-50%, 0);
+    animation: button-animation 2s ease infinite;
+
+}
+
+#home-button{
+    
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid rgb(229,133,75);
+    cursor: pointer;
+    
+
+    a{
+        color: rgb(229,133,75);
+        text-decoration: none;
+    }
+}
+
+#home-button:hover{
+    background-color: rgb(75, 195, 211);
+}
+
+@keyframes button-animation{
+    from{
+        padding: 0;
+    }
+    to{
+        padding: 20px;
+        border: 1px solid rgba(229,133,75, 0.2);
+        border-radius: 30px;
+    }
+}

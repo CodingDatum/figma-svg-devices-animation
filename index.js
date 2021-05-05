@@ -131,8 +131,14 @@ const animationContainer = document.querySelector(".animation-container");
 
 // };
 
+const homeButton = document.querySelector(".button-animation");
+
 function animateHero(){
 
     heroSVG.classList.add("fill");
+
+    setTimeout(() => {
+        homeButton.classList.remove("hidden");
+    }, 2000);
 
 }
