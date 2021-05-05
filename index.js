@@ -4,7 +4,9 @@ const laptop = document.querySelector("#laptop-svg");
 
 const tabletSVG = document.querySelector("#tablet-svg");
 
-let svgList = [phoneSVG, laptop, tabletSVG]
+let svgList = [phoneSVG, laptop, tabletSVG];
+
+let animationText = document.querySelector(".comment-animation-container");
 
 hideSavages(svgList);
 
@@ -28,12 +30,17 @@ function animateSVG(svgFile){
             }
 
             if(svgFile.id === "phone-svg"){
-                
                 child.classList.add("animate-phone");
+                setTimeout(function(){
+                    animationText.innerHTML = "Compatible Sites.";
+                }, 300)
             }
             if(svgFile.id === "tablet-svg"){
-
                 child.classList.add("animate-tablet");
+                animationText.classList.add("move-text");
+                setTimeout(function(){
+                    animationText.innerHTML = "Creatively Crafted."
+                }, 2000)
             }
 
             if(svgChildren.length - i === 1){
@@ -116,18 +123,16 @@ const animationContainer = document.querySelector(".animation-container");
 
 // the following is how we determine the stroke-dash properties of each SVG letter path
 
-for(let i = 0 ; i < heroPaths.length ; i++){
+// for(let i = 0 ; i < heroPaths.length ; i++){
 
-    let path = heroPaths[i];
-    let pathLength = path.getTotalLength();
-    console.log(pathLength);
+//     let path = heroPaths[i];
+//     let pathLength = path.getTotalLength();
+//     console.log(pathLength);
 
-};
+// };
 
 function animateHero(){
 
     heroSVG.classList.add("fill");
-
-    animationContainer.classList.add("container-animation");
 
 }
