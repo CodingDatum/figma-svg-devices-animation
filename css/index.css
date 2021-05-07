@@ -381,7 +381,7 @@ svg {
   }
   100% {
     font-size: 30px;
-    left: 42.5%;
+    left: 41%;
     top: 42%;
     color: #e5854b;
   }
@@ -398,7 +398,7 @@ svg {
   }
   100% {
     font-size: 30px;
-    left: 42.5%;
+    left: 41%;
     top: 42%;
     color: #e5854b;
   }
@@ -443,6 +443,8 @@ svg {
     padding: 20px;
     border: 1px solid rgba(229, 133, 75, 0.2);
     border-radius: 30px;
+    -webkit-transform: translate(-50%, 20px);
+            transform: translate(-50%, 20px);
   }
 }
 
@@ -454,6 +456,8 @@ svg {
     padding: 20px;
     border: 1px solid rgba(229, 133, 75, 0.2);
     border-radius: 30px;
+    -webkit-transform: translate(-50%, 20px);
+            transform: translate(-50%, 20px);
   }
 }
 /*# sourceMappingURL=index.css.map */

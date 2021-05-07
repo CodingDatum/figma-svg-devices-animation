@@ -250,7 +250,7 @@ svg{
     }
     100%{
         font-size: 30px;
-        left: 42.5%;
+        left: 41%;
         top: 42%;
         color: rgb(229,133,75);
         // color:rgb(25, 140, 155);
@@ -299,5 +299,6 @@ svg{
         padding: 20px;
         border: 1px solid rgba(229,133,75, 0.2);
         border-radius: 30px;
+        transform: translate(-50%, 20px);
     }
 }

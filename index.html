@@ -42,14 +42,18 @@
                 
             </div>
 
-            <svg id="laptop-svg" class="hidden" width="616" height="448" viewBox="0 0 616 448" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <!-- <g id="Desktop - 1">
-                <rect width="616" height="448" fill="transparent"/> -->
-                <g id="main-group">
-                <rect id="monitor-border" x="100" y="63" width="378" height="249" fill="#4C92C5"/>
+            <svg id="laptop-svg" width="616" height="448" viewBox="0 0 616 448" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- <g id="laptop-canvas">
+                <rect width="616" height="448" fill="white"/> -->
+                <g id="Group 1">
+                <g id="monitor-border" filter="url(#filter0_d)">
+                <rect x="100" y="63" width="378" height="249" fill="#4C92C5"/>
+                <rect x="100.5" y="63.5" width="377" height="248" stroke="white"/>
+                </g>
                 <rect id="monitor" x="113" y="81" width="353" height="217" fill="#E9F1FF"/>
-                <g id="keyboard" filter="url(#filter0_d)">
-                <path d="M97.5 312H475.5L531.5 367H47L97.5 312Z" fill="#7D7D7D"/>
+                <g id="keyboard" filter="url(#filter1_d)">
+                <path d="M99.5 312H477.5L533.5 367H49L99.5 312Z" fill="#7D7D7D"/>
+                <path d="M50.1379 366.5L99.7197 312.5H477.296L532.277 366.5H50.1379Z" stroke="white"/>
                 </g>
                 </g>
                 <rect id="nav-graphic" x="113" y="79" width="353" height="18" fill="#C4C4C4"/>
@@ -62,10 +66,21 @@
                 <rect id="laptop-component-2" x="364" y="121" width="78" height="51" fill="#FFFEFE"/>
                 <rect id="laptop-component-3" x="280" y="189" width="162" height="13" fill="#050000"/>
                 <rect id="laptop-component-4" x="280" y="219" width="79" height="7" fill="#C4C4C4"/>
+                <rect id="laptop-component-4_2" x="363" y="219" width="79" height="7" fill="#C4C4C4"/>
                 <rect id="laptop-component-5" x="280" y="236" width="79" height="5" fill="#C4C4C4"/>
+                <rect id="laptop-component-5_2" x="363" y="236" width="79" height="5" fill="#C4C4C4"/>
                 <!-- </g> -->
                 <defs>
-                <filter id="filter0_d" x="43" y="312" width="492.5" height="63" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <filter id="filter0_d" x="96" y="63" width="386" height="257" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="2"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                </filter>
+                <filter id="filter1_d" x="45" y="312" width="492.5" height="63" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
                 <feOffset dy="4"/>

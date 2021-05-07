@@ -39,7 +39,7 @@ function animateSVG(svgFile){
                 child.classList.add("animate-tablet");
                 animationText.classList.add("move-text");
                 setTimeout(function(){
-                    animationText.innerHTML = "Creatively Crafted."
+                    animationText.innerHTML = "Thoughtfully Crafted."
                 }, 2000)
             }
 
@@ -110,7 +110,7 @@ function hideSavages(list){
 
 setTimeout(function(){
     animateSVG(laptop)
-}, 1000);
+}, 500);
 
 
 // ANIMATED COMMENTS SECTION
